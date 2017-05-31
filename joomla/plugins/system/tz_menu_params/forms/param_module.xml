@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="tz_mod_params" label="PLG_SYSTEM_TZ_PARAMS_MODULE_TITLE_LABEL">
+
+            <!--Option K2 tool-->
+
+            <field type="spacer" name="option_title" class="text"
+                   label="&lt;strong style=&quot;color:#e0006c; text-transform:uppercase; padding-top:10px; display:block;&quot;&gt; Option K2 tool &lt;/strong&gt;"
+                    />
+            <field name="tz_style_seach" type="list" default="" label="PLG_SYSTEM_TZ_CUSTOM_STYLE_SEACH_LABEL" description="PLG_SYSTEM_TZ_STYLE_SEACH_DESC">
+                <option value="0">PLG_TOP</option>
+                <option value="1">PLG_BLOG</option>
+            </field>
+
+            <!--Option Tz-Google Map-->
+
+            <field type="spacer" name="option_map" class="text"
+                   label="&lt;strong style=&quot;color:#e0006c; text-transform:uppercase; padding-top:10px; display:block;&quot;&gt; Option Tz-Google Map &lt;/strong&gt;"
+             />
+            <field type="textarea" name="google_call_us" default="" filter="raw" label="PLG_SYSTEM_TZ_CUSTOM_CALL_US_LABEL" description="PLG_SYSTEM_TZ_CALL_US_DESC"/>
+            <field type="textarea" name="google_email" default="" filter="raw" label="PLG_SYSTEM_TZ_CUSTOM_EMAIL_LABEL" description="PLG_SYSTEM_TZ_EMAIL_DESC"/>
+
+            <field type="spacer" name="option_menu" class="text"
+                   label="&lt;strong style=&quot;color:#e0006c; text-transform:uppercase; padding-top:10px; display:block;&quot;&gt; Custom Option Module Menu &lt;/strong&gt;"
+            />
+
+            <field type="list" default="style1" name="tz_style_menu"
+                   label="PLG_SYSTEM_TZ_MODULE_MENU_TYPE_LABEL">
+                <option value="0">TZCLASSIC</option>
+                <option value="1">TZHOME_AGENCY</option>
+
+            </field>
+
+
+
+        </fieldset>
+    </fields>
+</form>

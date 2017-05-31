@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="core" label="COM_USERS_PROFILE_DEFAULT_LABEL">
+        <field
+                name="description"
+                type="textarea"
+                filter="string"
+                label="COM_USERS_DESCRIPTION_LABEL"
+                />
+        <field
+                name="description"
+                type="textarea"
+                filter="string"
+                label="COM_USERS_DESCRIPTION_LABEL"
+                />
+        
+        <field
+                name="description"
+                type="textarea"
+                filter="string"
+                label="COM_USERS_DESCRIPTION_LABEL"
+                />
+    </fieldset>
+</form>

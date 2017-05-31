@@ -1,0 +1,147 @@
+div#pgzoomscroll {
+    overflow: hidden;
+}
+
+.plusgallery a.pgalbumlink {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+.pinme {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    max-width: none;
+    list-style: none;
+    text-align: center;
+    float: left;
+}
+
+.pinme .effect-folio {
+
+}
+
+.pinme .effect-pinme .tz_info {
+    padding: 15px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    border: 1px solid #e7e7e7;
+    -webkit-box-shadow: 0 -4px 0 #e7e7e7 inset;
+    box-shadow: 0 -4px 0 #e7e7e7 inset;
+}
+
+.pinme .effect-pinme:hover .tz_info {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    -webkit-box-shadow: 0 -4px 0 #0088cc inset;
+    box-shadow: 0 -4px 0 #0088cc inset;
+}
+
+.pinme .effect-pinme .tz_info h3 {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    font-size: 15px;
+    margin: 0;
+}
+
+.pinme .effect-pinme:hover .tz_info h3 {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.pinme .image {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.pinme .image .folio-btn {
+    position: absolute;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    border: 15px solid #beb9b3;
+}
+
+.pinme .image:hover .folio-btn {
+    opacity: 1;
+}
+
+.pinme .image img {
+    width: 100%;
+    position: relative;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.pinme .image:hover img {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.pinme .image a {
+    height: 50px;
+    width: 50px;
+    background: #fff;
+    box-shadow: none;
+    color: #1190cf;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    left: 50%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    line-height: 33px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    opacity: 0;
+    background: url(../images/bg-zoom-dark.png) center no-repeat;
+    -moz-transform: scale(0);
+    -webkit-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+
+.pinme .image a.info {
+    margin-left: -25px;
+}
+
+.pinme .image:hover a {
+    opacity: 1;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.pinme

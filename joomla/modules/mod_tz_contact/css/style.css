@@ -1,0 +1,28 @@
+.TzContact #message-sent-false,
+.TzContact #message-sent {
+    display: none;
+    line-height: 17px;
+    margin: 15px 0 0 0;
+}
+.input-left input{
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+.input-right textarea{
+    border: 1px solid #000;
+    box-shadow: none;
+    padding: 10px;
+}
+.emailCopy label{
+    font-weight: normal;
+}
+div.emailCopy{
+    padding: 5px 0;
+}
+.contact-address .contact-icon{
+    float: left;
+}
+.contact-address .info{
+    padding: 0 0 30px 40px;
+}

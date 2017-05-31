@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="aaaa" label="COM_MENU_TZ_OPTION_CONTACT_CUSTOMFIELD_LABEL">
+            <field type="spacer" name="option_title" class="text"
+                   label="&lt;strong style=&quot;color:#e0006c; text-transform:uppercase; padding-top:10px; display:block;&quot;&gt;Option Page Title &lt;/strong&gt;"
+            />
+            <field
+                    name="icon"
+                    type="text"
+                    label="TZ_ICON"
+                    class="input-xxlarge"
+                    size="40"
+            />
+        </fieldset>
+    </fields>
+</form>

@@ -1,0 +1,200 @@
+.ui-slider-horizontal {
+  max-width: 100%;
+  left: 5px;
+}
+
+.hikashop_filter_main_div {
+  form::after,
+  &:after {
+    clear: both;
+    content: '';
+    display: block;
+  }
+  br {
+    display: none;
+  }
+  .hikashop_filter_main {
+    padding-top: 22px;
+    .chzn-container-multi .chzn-choices input[type="text"],
+    input[type="text"] {
+      width: 100% !important;
+      border: 1px solid #dfdfdf !important;
+      line-height: 35px !important;
+      font-size: 12px !important;
+      padding: 0 10px !important;
+      background: transparent !important;
+      margin: 0;
+      height: auto;
+      font-family: inherit;
+    }
+  }
+  .chzn-container-single,
+  .chzn-container-multi {
+    width: 100% !important;
+  }
+  .chzn-choices {
+    padding: 0;
+    border: none;
+    background: transparent;
+    li {
+      width: 100% !important;
+    }
+  }
+
+  .chzn-container-single .chzn-single {
+    border-radius: 0;
+    .box-shadow(none);
+    background: transparent;
+    border-color: #ccc;
+    line-height: 35px;
+    height: auto;
+    div {
+      width: 15px;
+      right: 10px;
+      b {
+        background-position: 0 7px;
+      }
+    }
+  }
+  .chzn-container-active.chzn-with-drop .chzn-single div b {
+    background-position: -15px 7px;
+  }
+  .hikashop_filter_checkbox {
+    display: block;
+    padding-bottom: 3px;
+  }
+  label {
+    font-weight: normal;
+    font-family: inherit;
+  }
+  .hikashop_filter_title {
+    display: block;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin: 0;
+    line-height: 25px;
+  }
+  input[type=checkbox], input[type=radio] {
+    margin-right: 3px;
+  }
+  .hikashop_filter_list_style {
+    padding-left: 20px;
+    list-style: circle;
+    li {
+      list-style: inherit;
+      &:before {
+        content: none;
+      }
+    }
+  }
+  label,
+  a {
+    font-size: 12px;
+    font-weight: normal;
+  }
+}
+
+.hikashop_reset_button_inside a,
+.hikashop_filter_button_inside a,
+.hikashop_filter_button_outside a,
+.hikashop_reset_button_outside a {
+  display: block;
+  float: none !important;
+  text-transform: uppercase;
+  color: #fff !important;
+  background: #222222;
+  text-align: center;
+  padding: 0 30px;
+  height: 45px;
+  line-height: 45px;
+  .transition(all 0.3s linear);
+  border: 1px solid transparent;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  margin: 35px 0 0;
+  &:hover {
+    display: block;
+    background: #ff5400;
+  }
+}
+
+.hikashop_reset_button_inside a {
+  margin-right: 0;
+}
+
+.hikashop_reset_button_outside a {
+  margin-top: 15px;
+}
+
+.hikashop_products_listing {
+
+}
+
+.hikashop_products_listing_main {
+  .hikashop_filter_main_div {
+    background: #fff none repeat scroll 0 0;
+    .box-shadow(0 2px 2px 0 rgba(0, 0, 0, 0.1));
+    color: #222222;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding: 22px;
+    .hikashop_filter_main {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    > form {
+      display: block;
+      margin: 0 -10px !important;
+    }
+  }
+}
+
+.pagination_block {
+  background: #fff none repeat scroll 0 0;
+  .box-shadow(0 2px 2px 0 rgba(0, 0, 0, 0.1));
+  color: #222222;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+
+  form {
+    flex: 1;
+  }
+  .tzview-style {
+    display: flex;
+    flex: 0.3;
+    align-items: center;
+    justify-content: flex-end;
+    label {
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 16px;
+      color: #222222;
+      margin-right: 7px;
+    }
+    .switchToGrid, .switchToList {
+      min-width: 20px;
+      text-align: center;
+    }
+  }
+  .hikashop_products_pagination {
+    font-size: 13px;
+    font-weight: 600;
+    color: #222;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    span {
+      color: #222;
+    }
+  }
+}

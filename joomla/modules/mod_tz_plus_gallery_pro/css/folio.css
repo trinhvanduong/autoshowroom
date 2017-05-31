@@ -1,0 +1,138 @@
+div#pgzoomscroll {
+    overflow: hidden;
+}
+
+.plusgallery a.pgalbumlink {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+.folio {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    max-width: none;
+    list-style: none;
+    text-align: center;
+    float: left;
+}
+
+.folio .effect-folio {
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+}
+
+.folio .effect-folio .tz_info {
+    border: 1px solid #e7e7e7;
+    padding: 15px 0 18px 0;
+    -webkit-box-shadow: 0 -4px 0 #e7e7e7 inset;
+    box-shadow: 0 -4px 0 #e7e7e7 inset;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.folio .effect-folio:hover .tz_info {
+    -webkit-box-shadow: 0 -4px 0 #0088cc inset;
+    box-shadow: 0 -4px 0 #0088cc inset;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.folio .image {
+    position: relative;
+    overflow: hidden;
+
+}
+.tz_info .ming-info h3{
+	font-size:16px;
+	margin:0;
+}
+.folio .image .folio-btn {
+    position: absolute;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(63, 63, 63, 0.8);
+    opacity: 0;
+}
+
+.folio .image:hover .folio-btn {
+    opacity: 1;
+}
+
+.folio .image img {
+    position: relative;
+    max-width: none;
+}
+
+.folio .image a {
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    box-shadow: none;
+    color: #1190cf;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    left: 50%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    line-height: 33px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    opacity: 0;
+}
+
+.folio .image a i {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.effect-folio .ming-info .title {
+    word-break: break-all;
+    font-size: 15px;
+    margin: 0;
+}
+
+.folio .image a.info {
+    margin-left: -50px;
+    -moz-transform: translateX(-50px);
+    -webkit-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    transform: translateX(-50px);
+}
+
+.folio .image a.image_url {
+    margin-left: 10px;
+    -moz-transform: translateX(50px);
+    -webkit-transform: translateX(50px);
+    -o-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    transform: translateX(50px);
+}
+
+.folio .image:hover a {
+    -moz-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+    opacity: 1;
+}

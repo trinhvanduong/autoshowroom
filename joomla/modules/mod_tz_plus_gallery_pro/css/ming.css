@@ -1,0 +1,184 @@
+div#pgzoomscroll {
+    overflow: hidden;
+}
+
+.plusgallery a.pgalbumlink {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+.ming {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    max-width: none;
+    list-style: none;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+
+}
+
+/* Common style */
+.ming .effect-ming {
+    position: relative;
+    float: none;
+    overflow: hidden;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+
+.ming .effect-ming img {
+    position: relative;
+    display: block;
+    min-height: 0;
+    max-width: none;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.ming .effect-ming >div {
+    padding: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.ming .effect-ming >div::before,
+.ming .effect-ming >div::after {
+    pointer-events: none;
+}
+
+.ming .effect-ming >div,
+.ming .effect-ming >div > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.ming .effect-ming >div > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+.ming .effect-ming h2 {
+    font-weight: 300;
+}
+
+.ming .effect-ming h2 span {
+    font-weight: 800;
+}
+
+.ming .effect-ming h2,
+.ming .effect-ming p {
+    margin: 0;
+}
+
+.ming .effect-ming p {
+    letter-spacing: 1px;
+    font-size: 68.5%;
+}
+
+/*---------------*/
+/***** Ming *****/
+/*---------------*/
+
+.effect-ming {
+    background: #030c17;
+}
+
+.effect-ming img {
+    opacity: 0.9;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+
+.effect-ming >div::before {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.2);
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale3d(1.4, 1.4, 1);
+    transform: scale3d(1.4, 1.4, 1);
+}
+
+.effect-ming a.info {
+    margin: 0;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    color: #fff;
+    text-align: center;
+    display: block;
+    background: transparent;
+    box-shadow: none;
+}
+
+.effect-ming div.ming-info a.info {
+    opacity: 1;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    font-size: 100%;
+    padding-bottom: 10px;
+}
+
+.effect-ming div.ming-info {
+    padding: 0;
+    /*opacity: 0;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    width: 80%;
+}
+
+.effect-ming:hover div.ming-info a.info {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.effect-ming:hover >div::before {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+
+.effect-ming:hover div.ming-info {
+    opacity: 1;
+}
+
+.effect-ming:hover >div {
+    background-color: rgba(58, 52, 42, 0);
+}
+
+.effect-ming:hover img {
+    opacity: 0.4;
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="tz_semona" label="PLG_SYSTEM_TZ_MENU_BREADCRUMBS_LABEL">
+            <field type="radio" class="btn-group" name="banner_page" default="0"
+                   label="PLG_SYSTEM_TZ_SHOW_BANNER_PAGE_LABEL">
+                <option value="0">JNO</option>
+                <option value="1">JYES</option>
+            </field>
+            <field type="media" label="PLG_SYSTEM_TZ_IMAGE_BANNER_PAGE_LABEL" name="image_banner"/>
+            <field type="text" label="PLG_SYSTEM_TZ_HEIGHT_BANNER_PAGE_LABEL" name="height_banner" default="500"/>
+            <field type="radio" name="tz_show_pattern"
+                   class="btn-group" default="0"
+                   label="PLG_SYSTEM_TZ_SHOW_PATTERN_LABEL">
+                <option value="0">JNO</option>
+                <option value="1">JYES</option>
+            </field>
+            <field type="radio" name="tz_show_custom_text"
+                   class="btn-group" default="0"
+                   label="PLG_SYSTEM_TZ_SHOW_CUSTOM_TEXT_LABEL">
+                <option value="0">JNO</option>
+                <option value="1">JYES</option>
+            </field>
+            <field type="textarea" label="PLG_SYSTEM_TZ_CUSTOM_TEXT_BANNER_LABEL" name="custom_text" default=""
+                   filter="raw"/>
+
+            <field name="tz_height_item_portfolio" type="text"
+                   label="PLG_SYSTEM_TZ_MENU_SET_HEIGHT_ITEM_PORTFOLIO_LABEL" default="480"/>
+        </fieldset>
+    </fields>
+</form>

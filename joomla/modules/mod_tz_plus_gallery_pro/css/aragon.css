@@ -1,0 +1,482 @@
+.pgthumb.aragon {
+    max-width: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.aragon img {
+    max-width: none;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.aragon-overlay {
+    left: 0;
+    outline: 0 solid transparent;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9);
+    bottom: 0;
+    right: 0;
+    border: 15px solid #bfbab3;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    -moz-transform: scale(0);
+    -webkit-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+
+.aragon:hover .aragon-overlay {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1
+}
+
+.aragon .effect3 {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.aragon .aragon-info h3 {
+    -moz-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    opacity: 0;
+    padding-bottom: 10px;
+}
+
+.aragon:hover .aragon-info h3 {
+    -moz-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: all 0.3s linear 0.3s;
+    -moz-transition: all 0.3s linear 0.3s;
+    -ms-transition: all 0.3s linear 0.3s;
+    -o-transition: all 0.3s linear 0.3s;
+    transition: all 0.3s linear 0.3s;
+    opacity: 1;
+}
+
+.aragon .aragon-info a {
+    background: #fff;
+    box-shadow: none;
+    color: #000;
+    padding: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    opacity: 0;
+    -moz-transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -o-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.aragon:hover .aragon-info a {
+    -moz-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: all 0.3s linear 0.4s;
+    -moz-transition: all 0.3s linear 0.4s;
+    -ms-transition: all 0.3s linear 0.4s;
+    -o-transition: all 0.3s linear 0.4s;
+    transition: all 0.3s linear 0.4s;
+    opacity: 1;
+}
+
+.aragon .aragon-info {
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    margin-top: -70px;
+    z-index: 2;
+}
+
+.aragon .aragon-info span {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.aragon .aragon-info a.info {
+    margin-right: 5px;
+}
+
+.aragon .aragon-info a.image_url {
+    margin-left: 5px;
+}
+
+.aragon:hover .aragon-info a {
+    opacity: 1;
+}
+
+.aragon .aragon-info a:hover {
+    background: #252525;
+    color: #0088cc;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.pgaaragon a {
+    /*padding:0;*/
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+
+div .plusgallery .pgalbumlink {
+    padding: 0;
+}
+
+.pgalbumthumb.pgaaragon img {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.pgalbumthumb.pgaaragon:hover img {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+div .pgalbumtitle {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.aragon .info-title {
+    position: absolute;
+    padding: 22px 15px;
+    color: #fff;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+}
+
+.aragon .info-title h3 {
+    color: #252525;
+    margin: 0;
+}
+
+.aragon:hover .info-title {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.aragon img {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.aragon:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+#pgthumbview ul {
+    padding: 0;
+}
+
+
+#pgzoomview {
+    position: absolute;
+    display:none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000)"; /* IE8 */
+    background: rgba(0,0,0,.8);
+    text-align: center;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+.oldie #pgzoomview {
+    background: url(../images/plusgallery/80.png);
+}
+
+#pgzoomview.fixed {
+    position: fixed;
+}
+
+#pgzoomscroll {
+    position: absolute;
+    overflow-x: scroll;
+    overflow-y: none;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    height: 100%;
+    z-index: 1010;
+}
+
+#pgzoom {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    -webkit-transform: translateZ(0px);
+}
+
+.pgzoomslide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+.pgzoomslide.loading {
+    background-image: url(../images/plusgallery/loading-gallery.gif);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;position: relative;
+}
+
+.pgzoomspacer {
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.pgzoomcenter {
+    vertical-align: middle;
+    display: inline-block;
+    /*width: 80%;*/
+    /*height: 85%;*/
+    text-align: center;
+
+}
+
+.pgzoomimg {
+    max-width: 80%;
+    max-height: 75%;
+    -webkit-box-shadow:  1px 1px 8px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow:  1px 1px 8px rgba(0, 0, 0, 0.9);
+    box-shadow:  1px 1px 8px rgba(0, 0, 0, 0.9);
+    vertical-align: middle;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s ease-out;
+    -moz-transition: opacity 0.4s ease-out;
+    -ms-transition: opacity 0.4s ease-out;
+    -o-transition: opacity 0.4s ease-out;
+    transition: opacity 0.4s ease-out;
+    vertical-align: middle;
+    margin-bottom: 2em;
+}
+
+.pgzoomimg.active {
+    opacity: 1;
+}
+
+.oldie .pgzoomimg {
+    max-width: none;
+    max-height: none;
+}
+
+.pgzoomcaption {
+    margin: 1.5em 0;
+    color: #fff;
+    font-size: .9em;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -ms-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+}
+
+.pgzoomarrow {
+    position: fixed;
+    width: 52px;
+    height: 100px;
+    background: url(../images/plusgallery/arrows.gif) no-repeat 0 0;
+    top: 50%;
+    margin-top: -50px;
+    overflow: hidden;
+    text-indent: -5000px;
+    z-index: 1011;
+}
+
+.pgzoomarrow:hover {
+    -webkit-box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pgprevious {
+    left: 0;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-position: 0 50%;
+}
+
+#pgnext {
+    right: 0;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-position: 100% 50%;
+}
+
+#pgzoomclose {
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-bottom-left-radius: 3px;
+    background-position: 100% 50%;
+    width: 52px;
+    height: 52px;
+    background-image: url(../images/plusgallery/zoom-icons.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    overflow: hidden;
+    text-indent: -5000px;
+    z-index: 1011;
+}
+
+#pgzoomclose:hover {
+    -webkit-box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pgcredit {
+    text-align: center;
+    clear: both;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.plusgallery #pgcredit a {
+    display: inline-block;
+    color: #222;
+    letter-spacing: 1px;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding: .3em .5em .3em .4em;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+#pgcredit a:hover {
+    background-color: #38beea !important;
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5) !important;
+    -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5) !important;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5) !important;
+}
+
+.plusgallery #pgcredit a span {
+    color: #666;
+    -webkit-transition: color 0.3s ease-out;
+    -moz-transition: color 0.3s ease-out;
+    -ms-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-out;
+}
+
+.plusgallery #pgcredit a:hover span {
+    color: #fff;
+}
+
+
+.plusgallery a:hover, #pgzoomview a:hover {
+    background-color: #38beea;
+}

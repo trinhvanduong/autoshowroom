@@ -1,0 +1,10 @@
+#drag .row{
+    border-style: none !important;
+    display: inline;
+    margin: 0;
+}
+#drag .row:before, #drag.row:after{
+    border-style: none !important;
+    display: inline;
+    margin: 0;
+}

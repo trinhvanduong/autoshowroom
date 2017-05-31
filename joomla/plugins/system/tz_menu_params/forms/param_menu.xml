@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="param_menu" label="COM_MENU_TZ_OPTION_MENU_DEFAULT_LABEL">
+
+            <field type="spacer" name="option_title" class="text"
+                   label="&lt;strong style=&quot;color:#e0006c; text-transform:uppercase; padding-top:10px; display:block;&quot;&gt;Option Page Title &lt;/strong&gt;"
+            />
+            <!--<field type="list" default="style1" name="contact_style"-->
+                   <!--label="PLG_SYSTEM_STYLE_LABEL">-->
+                <!--<option value="style1">TZCLASSIC</option>-->
+                <!--<option value="style2">TZLIST</option>-->
+                <!--<option value="style3">TZGRID</option>-->
+                <!--<option value="style4">TZGRID2</option>-->
+            <!--</field>-->
+            <!--<field type="spacer" name="option_title1" class="text"-->
+                   <!--label="&lt;strong style=&quot;color:#e0006c; text-transform:uppercase; padding-top:10px; display:block;&quot;&gt;Page Background (Register, Login)&lt;/strong&gt;"-->
+            <!--/>-->
+            <field type="media" name="bg_page_title"
+                   label="PLG_SYSTEM_BACKGROUND_PAGE_LABEL"/>
+        </fieldset>
+    </fields>
+</form>

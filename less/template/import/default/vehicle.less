@@ -1,0 +1,50 @@
+.tz__vehicles {
+  margin: 0 -15px;
+  .tz__vehicle {
+    .TzInner {
+      margin: 0 15px 40px 15px;
+      padding: 0 0 3px 0;
+      border: none;
+      .box-shadow(0 2px 2px 1px rgba(0, 0, 0, 0.1));
+    }
+    .TzVehicleDescription {
+      padding: 0 20px;
+      p{
+        font-size: 12px;
+        margin: 0;
+        font-weight: 300;
+        line-height:1.5em;
+      }
+    }
+    .TzVehicleTitle {
+      font-size: 14px;
+      line-height: 20px;
+      padding: 15px 0;
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      position: relative;
+      a {
+        position: relative;
+        color: #222222;
+        text-decoration: none;
+        .transition(all 0.3s linear 0s);
+        &:hover {
+          padding-left: 10px;
+          .transition(all 0.3s linear 0s);
+        }
+        &:before {
+          position: absolute;
+          width: 3px;
+          background: #ff5400;
+          left: -20px;
+          height: 100%;
+          top: 50%;
+          content: '';
+          .translate(0, -50%);
+        }
+      }
+    }
+  }
+}
